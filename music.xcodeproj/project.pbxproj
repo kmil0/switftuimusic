@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5FD63826828A3400CF6BCA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FD63726828A3400CF6BCA /* HomeScreen.swift */; };
+		AD5FD63A26828DA400CF6BCA /* ArtistScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FD63926828DA400CF6BCA /* ArtistScreen.swift */; };
+		AD5FD63C2682937200CF6BCA /* SongsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FD63B2682937200CF6BCA /* SongsScreen.swift */; };
 		ADEB12A726827AEB0013C6E0 /* music WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ADEB12A626827AEB0013C6E0 /* music WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ADEB12AC26827AEC0013C6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB12AB26827AEC0013C6E0 /* Assets.xcassets */; };
 		ADEB12B326827AEC0013C6E0 /* music WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ADEB12B226827AEC0013C6E0 /* music WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -17,6 +20,9 @@
 		ADEB12C026827AEC0013C6E0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB12BF26827AEC0013C6E0 /* ComplicationController.swift */; };
 		ADEB12C226827AED0013C6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB12C126827AED0013C6E0 /* Assets.xcassets */; };
 		ADEB12C526827AED0013C6E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB12C426827AED0013C6E0 /* Preview Assets.xcassets */; };
+		ADEB12D72682810B0013C6E0 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB12D62682810B0013C6E0 /* Music.swift */; };
+		ADEB12D9268281560013C6E0 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB12D8268281560013C6E0 /* Artist.swift */; };
+		ADEB12DB268281720013C6E0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB12DA268281720013C6E0 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD5FD63726828A3400CF6BCA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AD5FD63926828DA400CF6BCA /* ArtistScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistScreen.swift; sourceTree = "<group>"; };
+		AD5FD63B2682937200CF6BCA /* SongsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsScreen.swift; sourceTree = "<group>"; };
 		ADEB12A226827AEB0013C6E0 /* music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB12A626827AEB0013C6E0 /* music WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB12AB26827AEC0013C6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +85,9 @@
 		ADEB12C426827AED0013C6E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADEB12C626827AED0013C6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADEB12C726827AED0013C6E0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ADEB12D62682810B0013C6E0 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		ADEB12D8268281560013C6E0 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		ADEB12DA268281720013C6E0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5FD636268289EE00CF6BCA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AD5FD63726828A3400CF6BCA /* HomeScreen.swift */,
+				AD5FD63926828DA400CF6BCA /* ArtistScreen.swift */,
+				AD5FD63B2682937200CF6BCA /* SongsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		ADEB129B26827AEB0013C6E0 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +142,8 @@
 		ADEB12B626827AEC0013C6E0 /* music WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AD5FD636268289EE00CF6BCA /* Screens */,
+				ADEB12D5268280DB0013C6E0 /* Models */,
 				ADEB12B726827AEC0013C6E0 /* musicApp.swift */,
 				ADEB12B926827AEC0013C6E0 /* ContentView.swift */,
 				ADEB12BB26827AEC0013C6E0 /* NotificationController.swift */,
@@ -139,6 +163,16 @@
 				ADEB12C426827AED0013C6E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADEB12D5268280DB0013C6E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB12D62682810B0013C6E0 /* Music.swift */,
+				ADEB12D8268281560013C6E0 /* Artist.swift */,
+				ADEB12DA268281720013C6E0 /* Song.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +305,13 @@
 				ADEB12BA26827AEC0013C6E0 /* ContentView.swift in Sources */,
 				ADEB12C026827AEC0013C6E0 /* ComplicationController.swift in Sources */,
 				ADEB12B826827AEC0013C6E0 /* musicApp.swift in Sources */,
+				AD5FD63C2682937200CF6BCA /* SongsScreen.swift in Sources */,
+				ADEB12DB268281720013C6E0 /* Song.swift in Sources */,
+				AD5FD63826828A3400CF6BCA /* HomeScreen.swift in Sources */,
 				ADEB12BE26827AEC0013C6E0 /* NotificationView.swift in Sources */,
+				ADEB12D72682810B0013C6E0 /* Music.swift in Sources */,
+				AD5FD63A26828DA400CF6BCA /* ArtistScreen.swift in Sources */,
+				ADEB12D9268281560013C6E0 /* Artist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
